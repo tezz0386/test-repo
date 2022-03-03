@@ -1,0 +1,17 @@
+{
+    "name": "tejendra/test-mail",
+    "description": "This is for test of first package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Tejendra Dangaura"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tejendra\\TestMail\\": "src/"
+        }
+    }
+
+}
