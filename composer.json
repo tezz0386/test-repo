@@ -12,6 +12,13 @@
         "psr-4": {
             "Tejendra\\TestMail\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tejendra\\TestMail\\TestMailServiceProvider"
+            ]
+        }
     }
 
 }
